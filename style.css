@@ -319,7 +319,7 @@ textarea {
     --btn-altern-font-color: var(--color-dark);
     --btn-altern-bg-color: var(--color-gray-darker);
 }
-
+    
 .btn[data-state="white"] {
     --btn-base-font-color: var(--color-gray);
     --btn-base-bg-color: var(--color-white);
@@ -332,4 +332,12 @@ textarea {
     --btn-base-bg-color: var(--color-warning);
     --btn-altern-font-color: var(--color-dark);
     --btn-altern-bg-color: var(--color-warning-darker);
+}
+
+.hide{
+    display: hide;
+}
+
+@media (min-width: 768px){
+    
 }
